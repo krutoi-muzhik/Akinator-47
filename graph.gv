@@ -1,0 +1,13 @@
+digraph TREE {
+	node [shape = box]
+	"alive" -> "plastic" [label = "NO"]
+	"plastic" -> "table" [label = "NO"]
+	"plastic" -> "bottle" [label = "YES"]
+	"alive" -> "meowing" [label = "YES"]
+	"meowing" -> "human" [label = "NO"]
+	"human" -> "dog" [label = "NO"]
+	"human" -> "black-haired" [label = "YES"]
+	"black-haired" -> "Dimasik" [label = "NO"]
+	"black-haired" -> "Maxik" [label = "YES"]
+	"meowing" -> "cat" [label = "YES"]
+}

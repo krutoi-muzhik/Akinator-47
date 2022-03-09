@@ -1,0 +1,24 @@
+AKINATOR 47 by krutoi_muzhik crated this base
+[
+?alive (
+	?meowing (
+		cat
+		) {
+		?human (
+			?black-haired (
+				Maxik
+				) {
+				Dimasik
+				}
+			) {
+			dog
+			}
+		}
+	) {
+	?plastic (
+		bottle
+		) {
+		table
+		}
+	}
+]
