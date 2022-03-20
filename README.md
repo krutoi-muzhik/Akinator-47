@@ -19,8 +19,8 @@ Base saving and reading is based on full bracket notation. Here is a simple exam
 			dog
 			}
 		}
-	  ) {
-	  ?plastic (
+	) {
+	?plastic (
 		bottle
 		) {
 		table
