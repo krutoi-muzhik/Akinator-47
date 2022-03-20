@@ -7,7 +7,9 @@ digraph TREE {
 	"meowing" -> "human" [label = "NO"]
 	"human" -> "dog" [label = "NO"]
 	"human" -> "black-haired" [label = "YES"]
-	"black-haired" -> "Dimasik" [label = "NO"]
+	"black-haired" -> "doter" [label = "NO"]
+	"doter" -> "Dimasik" [label = "NO"]
+	"doter" -> "Sanechek" [label = "YES"]
 	"black-haired" -> "Maxik" [label = "YES"]
 	"meowing" -> "cat" [label = "YES"]
 }

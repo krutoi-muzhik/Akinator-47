@@ -242,7 +242,7 @@ int main () {
 	OpenBase ("base.txt", &tree);
 	Game (&tree);
 	GVDump (&tree);
-	// SaveBase ("base.txt", &tree);
+	SaveBase ("base.txt", &tree);
 	TreeDestruct (&tree);
 	exit (EXIT_SUCCESS);
 }
