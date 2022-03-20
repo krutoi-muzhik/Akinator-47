@@ -6,26 +6,26 @@ If tour object is contained in the base (base.txt) he'll undoubtedly guess and w
 Base saving and reading is based on full bracket notation. Here is a simple example:
 
     ?alive (
-    	?meowing (
-		cat
-		) {
-		?human (
-			?black-haired (
-				Maxik
-				) {
-				Dimasik
-				}
-			) {
-			dog
-			}
-		}
-	) {
-	?plastic (
-		bottle
-		) {
-		table
-		}
-	}
+        ?meowing (
+            cat
+            ) {
+            ?human (
+                ?black-haired (
+                    Maxik
+                    ) {
+                    Dimasik
+                    }
+                ) {
+                dog
+                }
+            }
+        ) {
+        ?plastic (
+            bottle
+            ) {
+            table
+            }
+        }
 
 If you want to see the whole tree you can use graphviz dump (GVDump function in tree.c) Here is a visualization of a simple base above:
 
